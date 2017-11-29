@@ -1,0 +1,15 @@
+.phcolor{
+    color: #DDDDDD;  
+ }
+
+/* pages/login/login.wxss */
+.input-login {
+  margin: 10px;
+  border-bottom:1px solid;
+}
+
+.btn-login {
+  background-color: pink;
+  margin: 10px;
+  border-radius: 20px;
+}

@@ -1,0 +1,16 @@
+<view class="section__ctn">
+  <image style = "width: 100%;height:150px" src="{{imageSrc}}" mode="scaleToFill"></image>
+</view>
+
+<form bindsubmit="formSubmit">
+  <view class="section">
+    <input name="usernumber" placeholder-class="phcolor" placeholder="请输入账号" class='input-login' />
+  </view>
+  <view class="section">
+    <input name="password" placeholder-class="phcolor" placeholder="请输入密码" class='input-login' />
+  </view>
+
+  <view class="btn-area">
+    <button formType="submit" class='btn-login'>登录</button>
+  </view>
+</form>
